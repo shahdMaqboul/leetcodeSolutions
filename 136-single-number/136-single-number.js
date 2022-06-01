@@ -12,3 +12,6 @@ var singleNumber = function(nums) {
     }
     
 };
+// references
+// https://iamketan.wordpress.com/2020/12/16/136-single-number-leetcode/
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
