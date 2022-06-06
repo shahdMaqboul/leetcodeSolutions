@@ -3,6 +3,8 @@
  * @return {string}
  */
 var reverseVowels = function(s) {
+    if(s==null) return s;
+    
     s=s.split("");
     
     const vowels =['a', 'e', 'i', 'o', 'u'];
@@ -16,7 +18,7 @@ var reverseVowels = function(s) {
     
     for(let i=0;i<arr.length/2;i++){
         aux = s[arr[i]];
-        s[arr[i]]=s[arr[arr.length-1-i]]
+        s[arr[i]]=s[arr[arr.length-1-i]];
         s[arr[arr.length-1-i]]=aux;
         
     }
