@@ -4,20 +4,15 @@
  * @return {number[]}
  */
 var intersect = function(nums1, nums2) {
-    var nums1Len = nums1.length;
-    var nums2Len = nums2.length;
-    var minLen = Math.min(nums1Len,nums2Len);
-    console.log(minLen)
+    var minLen = Math.min(nums1.length,nums2.length);
     const arr=[];
     
     for(let i=0 ; i < minLen ;i++){
-        if(minLen == nums1Len){
-            console.log(minLen)
+        if(minLen == nums1.length){
             if(nums2.indexOf(nums1[i])!= -1){
                 nums2[nums2.indexOf(nums1[i])]=""
                 arr.push(nums1[i])
             }
-            console.log(nums2)
         }
         else{
             if(nums1.indexOf(nums2[i])!= -1){
