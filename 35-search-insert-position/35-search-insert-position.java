@@ -11,8 +11,6 @@ class Solution {
                 if(position == 0){
                     if(nums[i]>=target) 
                         position = i;
-                    // else if(i==nums.length-1)
-                    //     position = i+1;
                 }
             }
            
