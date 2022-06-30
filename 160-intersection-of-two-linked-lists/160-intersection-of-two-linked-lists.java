@@ -30,3 +30,5 @@ public class Solution {
         return a;
     }
 }
+
+// solution idea got from https://dev.to/seanpgallivan/solution-intersection-of-two-linked-lists-478e#java-code
